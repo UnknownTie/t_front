@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <img src="logo.png" alt="Logo" id="logo">
+            <h1>My Website</h1>
+        </div>
+        <nav class="main-menu">
+            <ul>
+                <li class="menu-item">Home
+                    <ul class="submenu">
+                        <li ><button class="submenu-btn" data-target="home.html">Submenu 1</button></li>
+                        <li ><button class="submenu-btn" data-target="about.html">Submenu 1</button></li>
+                        <li ><button class="submenu-btn" data-target="contact.html">Submenu 1</button></li>
+                    </ul>
+                </li>
+                <li class="menu-item" data-target="services.html">Services
+                    <ul class="submenu">
+                        <li>Web Design</li>
+                        <li>Hosting</li>
+                        <li>SEO</li>
+                    </ul>
+                </li>
+                <li class="menu-item" data-target="portfolio.html">Portfolio
+                    <ul class="submenu">
+                        <li>Project 1</li>
+                        <li>Project 2</li>
+                        <li>Project 3</li>
+                    </ul>
+                </li>
+                <li class="menu-item" data-target="contact.html">Contact
+                    <ul class="submenu">
+                        <li>Location</li>
+                        <li>Support</li>
+                        <li>General Inquiry</li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-content">
+        <!-- 페이지 내용이 여기에 동적으로 로드됩니다 -->
+    </main>
+    <footer>
+        <p>Links | Description | Welcome Message</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
